@@ -1,0 +1,39 @@
+<?php 
+$contents = [
+    [
+        "title"   => "Introduction à React",
+        "type"    => "article",
+        "status"  => "published",
+        "views"   => 120,
+        "author"  => "Alice",
+        "tags"    => ["javascript", "react"],
+        "featured"=> false,
+    ],
+    [
+        "title"   => "Meetup développeurs",
+        "type"    => "event",
+        "status"  => "draft",
+        "views"   => 40,
+        "author"  => "Bob",
+        "tags"    => ["community"],
+        "featured"=> false,
+    ],
+    [
+        "title"   => "Projet Data Dashboard",
+        "type"    => "project",
+        "status"  => "published",
+        "views"   => 300,
+        "author"  => "Claire",
+        "tags"    => ["data", "analytics"],
+        "featured"=> true,
+    ],
+    [
+        "title"   => "Guide WordPress",
+        "type"    => "article",
+        "status"  => "published",
+        "views"   => 80,
+        "author"  => null,
+        "tags"    => ["wordpress"],
+        "featured"=> false,
+    ],
+];
