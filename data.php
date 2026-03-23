@@ -36,4 +36,13 @@ $contents = [
         "tags"    => ["wordpress"],
         "featured"=> false,
     ],
+    [
+        "title"   => "Guide Node.js",
+        "type"    => "article",
+        "status"  => "published",
+        "views"   => 500,
+        "author"  => "Lucas",
+        "tags"    => ["javascript", "data"],
+        "featured"=> true,
+    ],
 ];
